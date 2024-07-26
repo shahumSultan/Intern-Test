@@ -8,4 +8,12 @@
 
 
 def calculate_operations(a, b):
-    # CODE BELOW THIS LINE
+    sum = a+b
+    diff = a-b
+    prod = a*b
+    return sum, diff, prod
+
+a = float(input("Enter first number:\t"))
+b = float(input("Enter Second number:\t"))
+
+print(calculate_operations(a,b))
